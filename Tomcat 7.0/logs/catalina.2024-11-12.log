@@ -1,0 +1,157 @@
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.103
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 16 2020 08:34:15 UTC
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.103.0
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files (x86)\Java\jre-1.8
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_401-b10
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\temp
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\conf\logging.properties
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: exit
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: abort
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms128m
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx256m
+Nov 12, 2024 3:26:41 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Java\jre-1.8\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\PuTTy\;C:\Program Files (x86)\AOMEI\AOMEI Backupper\7.0.0;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\sean\AppData\Local\Microsoft\WindowsApps;C:\Users\sean\.dotnet\tools;E:\Microsoft VS Code\bin;C:\ProgramFiles\gradle-7.6.4\bin;C:\ProgramFiles\openjdk-8u402-b06\bin;.]
+Nov 12, 2024 3:26:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 12, 2024 3:26:41 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:414)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:401)
+	... 17 more
+
+Nov 12, 2024 3:26:41 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:414)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:401)
+	... 17 more
+
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 331 ms
+Nov 12, 2024 3:26:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Nov 12, 2024 3:26:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.103
+Nov 12, 2024 3:26:41 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\altoromutual.war]
+Nov 12, 2024 3:26:42 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 12, 2024 3:26:43 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [286] milliseconds.
+Nov 12, 2024 3:26:43 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\altoromutual.war] has finished in [2,007] ms
+Nov 12, 2024 3:26:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\docs]
+Nov 12, 2024 3:26:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\docs] has finished in [24] ms
+Nov 12, 2024 3:26:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\host-manager]
+Nov 12, 2024 3:26:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\host-manager] has finished in [28] ms
+Nov 12, 2024 3:26:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\manager]
+Nov 12, 2024 3:26:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\manager] has finished in [27] ms
+Nov 12, 2024 3:26:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\ROOT]
+Nov 12, 2024 3:26:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Program Files (x86)\Apache Software Foundation\Tomcat 7.0\webapps\ROOT] has finished in [21] ms
+Nov 12, 2024 3:26:43 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2160 ms
+Nov 12, 2024 3:26:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 12, 2024 3:26:59 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Nov 12, 2024 3:26:59 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/altoromutual] registered the JDBC driver [org.apache.derby.jdbc.AutoloadedDriver40] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 12, 2024 3:26:59 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/altoromutual] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@163bc0f]) and a value of type [org.apache.derby.iapi.services.context.ContextManager] (value [org.apache.derby.iapi.services.context.ContextManager@181970f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Nov 12, 2024 3:26:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Nov 12, 2024 3:26:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]

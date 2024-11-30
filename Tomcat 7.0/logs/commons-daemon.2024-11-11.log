@@ -1,0 +1,34 @@
+[2024-11-11 16:22:43] [info]  [ 2680] Apache Commons Daemon procrun (1.2.2.0 32-bit) started.
+[2024-11-11 16:22:43] [info]  [ 2680] Installing service 'Tomcat7' name 'Apache Tomcat 7.0 Tomcat7'.
+[2024-11-11 16:22:43] [info]  [ 2680] Service 'Tomcat7' installed.
+[2024-11-11 16:22:43] [info]  [ 2680] Apache Commons Daemon procrun finished.
+[2024-11-11 16:22:43] [info]  [30432] Apache Commons Daemon procrun (1.2.2.0 32-bit) started.
+[2024-11-11 16:22:43] [info]  [30432] Updating service...
+[2024-11-11 16:22:43] [info]  [30432] Updated service 'Tomcat7'.
+[2024-11-11 16:22:43] [info]  [30432] Finished updating service 'Tomcat7'.
+[2024-11-11 16:22:43] [info]  [30432] Apache Commons Daemon procrun finished.
+[2024-11-11 16:22:43] [info]  [30476] Apache Commons Daemon procrun (1.2.2.0 32-bit) started.
+[2024-11-11 16:22:43] [info]  [30476] Updating service...
+[2024-11-11 16:22:43] [info]  [30476] Updated service 'Tomcat7'.
+[2024-11-11 16:22:43] [info]  [30476] Finished updating service 'Tomcat7'.
+[2024-11-11 16:22:43] [info]  [30476] Apache Commons Daemon procrun finished.
+[2024-11-11 16:22:43] [info]  [18572] Apache Commons Daemon procrun (1.2.2.0 32-bit) started.
+[2024-11-11 16:22:43] [info]  [18572] Updating service...
+[2024-11-11 16:22:43] [info]  [18572] Updated service 'Tomcat7'.
+[2024-11-11 16:22:43] [info]  [18572] Finished updating service 'Tomcat7'.
+[2024-11-11 16:22:43] [info]  [18572] Apache Commons Daemon procrun finished.
+[2024-11-11 16:22:44] [info]  [ 3552] Apache Commons Daemon procrun (1.2.2.0 32-bit) started.
+[2024-11-11 16:22:44] [info]  [ 3552] Updating service...
+[2024-11-11 16:22:44] [info]  [ 3552] Updated service 'Tomcat7'.
+[2024-11-11 16:22:44] [info]  [ 3552] Finished updating service 'Tomcat7'.
+[2024-11-11 16:22:44] [info]  [ 3552] Apache Commons Daemon procrun finished.
+[2024-11-11 16:22:46] [info]  [15304] Apache Commons Daemon procrun (1.2.2.0 32-bit) started.
+[2024-11-11 16:22:46] [info]  [15304] Running Service 'Tomcat7'...
+[2024-11-11 16:22:46] [info]  [35104] Starting service...
+[2024-11-11 16:22:47] [info]  [35104] Service started in 1106 milliseconds.
+[2024-11-12 15:27:00] [info]  [28000] Console CTRL+BREAK event signaled.
+[2024-11-14 15:03:21] [info]  [25332] Console SHUTDOWN event signaled.
+[2024-11-14 15:03:21] [info]  [25332] Stopping service...
+[2024-11-14 15:03:22] [info]  [25332] Service stop thread completed.
+[2024-11-14 15:03:22] [info]  [15304] Run service finished.
+[2024-11-14 15:03:22] [info]  [15304] Apache Commons Daemon procrun finished.
